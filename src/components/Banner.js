@@ -18,7 +18,7 @@ const Banner = () => {
             viewport={{once: false, amount: 0.5}} 
             className='flex-1 text-center font-secondary lg:text-left'>
             <div className='text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] lg:mt-20'>
-              HELLO! <span>I'M </span> 
+              HELLO! <span>I'M A </span> 
               <TypeAnimation 
                 sequence={[
                   'Software Engineer',
