@@ -46,7 +46,7 @@ const Banner = () => {
                   Contact Me
                 </Link>
               </button>
-              <a href='https://drive.google.com/file/d/16T5mk2qa0m7BagYzQlExKYn9M8xAZ7ma/view?usp=sharing' className='text-accent font-bold font-primary btn-link'>
+              <a href='https://drive.google.com/file/d/1YhKLzpiLd891I3Fz_1KH9e7SA5RZIz4Y/view?usp=sharing' className='text-accent font-bold font-primary btn-link'>
                 My Portfolio
               </a>
             </div>
