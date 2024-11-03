@@ -1,16 +1,30 @@
 import React, { useState } from 'react';
 import {motion} from 'framer-motion';
 import { fadeIn } from '../variants';
-import MainImage from '../assets/self3.png';
+import MainImage from '../assets/self5.png';
 import Image1 from '../assets/GDSC.JPG';
 import Image2 from '../assets/GUI.jpg';
 import Image3 from '../assets/NUS.jpg';
 import Image4 from '../assets/TECQ.jpg';
 import Image5 from '../assets/GE.png';
 import Image6 from '../assets/GE_Notes.png';
+import Image7 from '../assets/accenture.jpg';
+import Image8 from '../assets/rhaeos.png';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 const journey = [
+  {
+    name: 'NOC: Software Engineering Intern @ Rhaeos',
+    description: 'Developed mobile application, automated data analysis and visualisation on AWS, and created a data visualisation website for a medical device company in the United States.',
+    image: Image8,
+    imageDesc: 'Rhaeos Logo'
+  },
+  {
+    name: 'Summer 2024: Application Developer Intern @ Accenture',
+    description: 'Developed the backend infrastructure, including API endpoints, for the website utilised by the Land Transport Authority (LTA) Public Transport Licensing System (PTLS).',
+    image: Image7,
+    imageDesc: 'LTA PTLS Project Team'
+  },
   {
     name: 'August 2023: Full-Stack Developer @ Google Developers Student Club (GDSC)',
     description: 'Joined Project Kampung Connect - Built a volunteer management system for Ground-Up Initiative(GUI) to improve the efficiency of volunteer registration system.',
@@ -71,7 +85,7 @@ const About = () => {
             viewport={{once: false, amount: 0.3}}
             className="flex-1 flex flex-col">
             {/* left: title + description */}
-              <img src={MainImage} alt='' style={{width: '600px', height: '250px', objectFit: 'cover'}} className='hidden lg:flex flex-1 mb-5'/>
+              <img src={MainImage} alt='' style={{width: '400px', height: '300px', objectFit: 'cover'}} className='hidden lg:flex flex-1 mb-5'/>
               <h2 className="h2 leading-tight text-accent">About Me.</h2>
               <h3 className="h3">
                 A self-driven and passionate undergraduate pursuing a Bachelor of Computing in Information Systems.

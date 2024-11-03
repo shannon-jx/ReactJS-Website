@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import { initializeApp } from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';

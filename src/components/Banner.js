@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/profile.png';
+import Image from '../assets/profile2.png';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
@@ -18,7 +18,7 @@ const Banner = () => {
             viewport={{once: false, amount: 0.5}} 
             className='flex-1 text-center font-secondary lg:text-left'>
             <div className='text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] lg:mt-20'>
-              HELLO! <span>I'M </span> 
+              HELLO! <span>I'M A </span> 
               <TypeAnimation 
                 sequence={[
                   'Software Engineer',
@@ -69,7 +69,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.5}} 
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[400px]'> 
-            <img src={Image} alt='' style={{height: '500px'}}/>
+            <img src={Image} alt='' style={{height: '400px'}}/>
           </motion.div>
         </div>
       </div>

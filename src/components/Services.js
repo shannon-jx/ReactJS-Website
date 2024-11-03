@@ -12,12 +12,12 @@ const services = [
     desc: 'Build innovative and responsive mobile apps for various platforms.'
   },
   {
-    name: 'Consulting Service',
-    desc: 'Get expert guidance and solutions for your software development projects.'
+    name: 'AWS Cloud Services',
+    desc: 'Automate and migrate manual services to the cloud such as S3 Storage, Lambda functions, Elastic Cloud Computing (EC2), DynamoDB, etc.'
   },
   {
-    name: 'Product Management',
-    desc: 'Streamline your product development process and enhance project outcomes.'
+    name: 'Consulting Service',
+    desc: 'Get expert guidance and solutions for your software development projects.'
   }
 ]
 
